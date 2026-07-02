@@ -1,0 +1,46 @@
+h3 {
+    color:green;
+    font-weight:light;
+}
+
+p {
+    color:tomato;
+}
+
+#headingOne {
+    color:pink;
+}
+button {
+    color:brown;
+    background-color:yellow;
+}
+
+body {
+    background-color: rgb(25,150,100);
+}
+
+.myClass {
+    color:rgb(134, 10, 134);
+}
+
+#first {
+    text-align:right; 
+    font-family:roboto;
+}
+
+h1 {
+    text-decoration:underline;
+    text-decoration: line-through;
+    font-weight:normal;
+}
+
+h2 {
+    font-weight:900;
+}
+a {
+    text-decoration: none;
+}
+
+#prop{
+    font-weight:900
+}
