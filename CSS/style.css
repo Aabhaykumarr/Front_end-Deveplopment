@@ -25,7 +25,7 @@ body {
 
 #first {
     text-align:right; 
-    font-family:roboto;
+    font-family:arial , roboto;
 }
 
 h1 {
@@ -43,4 +43,18 @@ a {
 
 #prop{
     font-weight:900
+}
+
+#one {
+    font-size:25px;
+    line-height:30px;
+    text-transform:capitlize;
+}
+
+#two {
+    font-size:10px;
+}
+
+#three {
+    font-size:5px;
 }

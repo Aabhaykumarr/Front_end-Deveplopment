@@ -1,0 +1,35 @@
+#d {
+    height:100px;
+    width:100px;
+    background-color:yellow;
+    border-style:solid;
+    border-width:2px;
+    border-color:red;
+    text-align:centre;
+    border-radius:50%;
+    padding-left:350px;
+    padding-right:350px;
+    padding-bottom:12px;
+    padding-top:1px;
+    
+}
+
+#p {
+    border:2px dotted red;
+    border-radius:15px;
+    text-align:centre;
+    padding:1px 2px 1px 2px;
+}
+
+#d1 {
+    border:2px dotted red;
+    border-radius:15px;
+    text-align:centre;      
+    height:100px;
+    width:100px;
+    background-color:yellow;
+    text-align:center;
+    padding:50px 50px 50px 50px;
+     margin-top:50px;
+     margin-bottom:50px;  
+}
