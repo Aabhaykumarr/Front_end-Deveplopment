@@ -1,0 +1,27 @@
+#d1{
+    background-color:azure;
+    display:inline;
+} #b{
+    display:block;
+    margin:25px;
+    margin-right:25px;
+    margin-left:25px;
+}#d2{
+    background-color:rgba(0,0,255,0.2);
+    margin-right:25px;
+    /* display:none; */
+    /* visibility:hidden; */
+    
+}#d3{
+    background-color:green;
+     margin-top:25px;
+}#d4{
+    background-color:red;
+     margin-top:25px;
+}div{
+    height:100px;
+    width:100px;
+    margin:25px;
+    padding:25px;
+   display:inline-block;
+}
