@@ -25,11 +25,16 @@
     position:static;
     top:50px;
     background-image: url("./billi.jpg");
+    background-size:cover;
     /* static will have no change despite setting the changes manually  */
 }#d2{
     position:relative;
     top:10px;
-    left:10px; /* left means it will have space on left so div will shift to right */
+    left:10px; 
+    background-image: url("./billi.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    /* left means it will have space on left so div will shift to right */
     /* this is w.r.t itself, its previous position  */
 }#d3{
     position:absolute;
