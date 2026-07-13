@@ -1,0 +1,45 @@
+#out{
+    height:500px;
+    width:500px;
+    background-color:green;
+    font-size:10px;
+} #in{
+    height :250px;
+    width:40%;
+    background-color:yellow;
+    margin-left:10%;
+    font-size:2em; /*size w.r.t parent */
+    width:25em; /*w.r.t to itself, font-size x width.*/
+    width:10rem; /* w.r.t to root element the element in body tag  */
+    /* vh = viewport height  */
+    /* vw = viewport width  */ 
+    /* meaning they are according to the view or screen of webpage */
+}.d{
+    height:100px;
+    width:100px;
+    background-color:aqua;
+    border:2px solid black;
+    display:inline-block;
+    
+}#d1{
+    position:static;
+    top:50px;
+    background-image: url("./billi.jpg");
+    /* static will have no change despite setting the changes manually  */
+}#d2{
+    position:relative;
+    top:10px;
+    left:10px; /* left means it will have space on left so div will shift to right */
+    /* this is w.r.t itself, its previous position  */
+}#d3{
+    position:absolute;
+    right:10px;
+    /* postion relative to closet non-static ancenstor, in our code its the body tag which is at outer */
+}#d4{
+    position:fixed;
+    top:20px;
+    /* position relative to browser  */
+    /* it will remain fixed all the time where it is even we scroll like nav bar */
+    /* position sticky do the same instead it will become fixed when it will appear on screen */
+    z-index:-1
+}
