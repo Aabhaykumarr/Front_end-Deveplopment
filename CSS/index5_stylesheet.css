@@ -1,0 +1,13 @@
+#d{
+    height:50px;
+    width:50px;
+    background-color:yellow;
+}  @media (width:500px){
+    #d{
+        background-color:red;
+    }
+} @media (min-width:200px) and (max-width:300px){
+    #d{
+        background-color:blueviolet;
+    }
+}
