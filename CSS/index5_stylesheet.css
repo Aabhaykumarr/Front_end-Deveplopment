@@ -13,10 +13,18 @@
     /* transform:rotate(45deg); */
     /* rotate: x 90deg; */
     /* rotate:x 180deg; */
-    rotate: z 45deg;
+    /* rotate: z 45deg; */
     /* transform:scale(2); */
     /* transform: scalex(2); */
-    transition:all 2s ease-in;
+    /* transition:all 2s ease-in; */
+    /* animation-name:colorAnimate;
+    animation-duration:3s;
+    animation-timing-function:ease-in;
+    animation-delay:1s;
+    animation-iteration-count: 5;
+    animation-direction:reverse; */
+    /* aniamtion short-hand */
+    animation: colorAnimate 2s ease-in 0s infinite alternate;
     
 }  @media (width:500px){
     #d{
@@ -26,15 +34,38 @@
     #d{
         background-color:blueviolet;
     }
-} #d:hover{
-    background-color:black;
+} @keyframes colorAnimate {
+            /* from { background-color:aquamarine;}
+            to { background-color:red;} */
+            /* from{ 
+                left:0px;
+                background-color:red;
+            }
+            to {
+                left:200px;
+                backgrond-color:pink;
+            } */ 
+
+        0%{ 
+                left:0px;
+                background-color:red;
+            }
+        50% {
+            background-color:blue;
+        }
+            100% {
+                left:200px;
+                backgrond-color:pink;
+            }
+}#d:hover{
+    /* background-color:black;
     color:white;
-    font-size:20px;
+    font-size:20px; */
     /* transform:scaleY(2); */
     /* transform:rotate(90deg); */
     /* transform:translate(200px); */
-     transform:translateY(200px);
+     /* transform:translateY(200px); */
       /* transform:translate(200px,40px); */
-      transform: skew(45deg) ;
+      /* transform: skew(45deg) ; */
    
 }
